@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Huellitas Felices</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            color:#333;
+        }
+
+        header{
+            background:#2E8B57;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#246B45;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        .hero{
+            background:#90EE90;
+            padding:50px;
+            text-align:center;
+        }
+
+        .hero h2{
+            font-size:36px;
+            margin-bottom:15px;
+        }
+
+        .hero p{
+            font-size:18px;
+        }
+
+        .contenedor{
+            width:80%;
+            margin:auto;
+            padding:30px 0;
+        }
+
+        .servicios{
+            display:flex;
+            justify-content:space-between;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background:white;
+            width:30%;
+            min-width:250px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,.2);
+            text-align:center;
+        }
+
+        .card h3{
+            color:#2E8B57;
+            margin-bottom:10px;
+        }
+
+        .contacto{
+            background:white;
+            padding:25px;
+            border-radius:10px;
+            margin-top:40px;
+            box-shadow:0 0 10px rgba(0,0,0,.2);
+        }
+
+        footer{
+            background:#2E8B57;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+
+        @media(max-width:768px){
+            .servicios{
+                flex-direction:column;
+                align-items:center;
+            }
+
+            .card{
+                width:90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🐾 Veterinaria Huellitas Felices</h1>
+    <p>Cuidamos la salud y bienestar de tus mascotas</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Nosotros</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<section class="hero">
+    <h2>Bienvenido a nuestra veterinaria</h2>
+    <p> LORETO CARRERAS.</p>
+</section>
+
+<div class="contenedor">
+
+    <h2 style="text-align:center; margin-bottom:20px;">Nuestros Servicios</h2>
+
+    <div class="servicios">
+
+        <div class="card">
+            <h3>🩺 Consulta General</h3>
+            <p>Revisión médica completa y diagnóstico profesional.</p>
+        </div>
+
+        <div class="card">
+            <h3>💉 Vacunación</h3>
+            <p>Protege a tu mascota con su esquema de vacunación.</p>
+        </div>
+
+        <div class="card">
+            <h3>✂️ Estética Canina</h3>
+            <p>Baño, corte de pelo y limpieza especializada.</p>
+        </div>
+
+    </div>
+
+    <div class="contacto">
+        <h2>Contacto</h2>
+        <br>
+        <p><strong>📍 Dirección:</strong> manoguayabo #123</p>
+        <p><strong>📞 Teléfono:</strong> (829)791 8390 </p>
+        <p><strong>📧 Correo:</strong> contacto@huellitasfelices.com</p>
+        <p><strong>🕒 Horario:</strong> Lunes a Sábado de 8:00 AM a 6:00 PM</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Veterinaria  loreto carreras </p>
+</footer>
+
+</body>
+</html>
